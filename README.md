@@ -2,7 +2,7 @@
 非常主观的中文语言模型评测
 
 ## Inspiration
-灵感来自Hugging Face的[Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)以及[Local-LLM-Comparison-Colab-UI](https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI)，一开始想要用GPT4来打分，用一些题目评测中文语言模型各方面的能力。后面感觉GPT4的打分也很玄学，说服不了自己，所以打分非常主观，图一乐。最开始只是评测；了一些Hugging Face上开源的模型，后面逐步添加了一些国内开发的闭源大模型
+灵感来自Hugging Face的[Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)以及[Local-LLM-Comparison-Colab-UI](https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI)，一开始想要用GPT4来打分，用一些题目评测中文语言模型各方面的能力。后面感觉GPT4的打分也很玄学，说服不了自己，所以打分非常主观，图一乐。最开始只是评测了一些Hugging Face上开源的模型，后面逐步添加了一些国内开发的闭源大模型。使用不同来源的模型时，尽量使用默认设置，避免主观影响。部分Hugging Face有推荐的System Prompt或者Input Format，则尽量遵守。
 
 ## Ranking
 | 排名 | 模型                      | 是否开源 | 测试平台           | 链接                                                                                                                   | 总体平均 | 语法词汇平均 | 翻译平均 | 语义理解平均 | 文本生成平均 | 数学逻辑平均 |
