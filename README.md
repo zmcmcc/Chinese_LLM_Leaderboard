@@ -1,4 +1,4 @@
-# Chinese_LLM_Ranking
+# Chinese LLM Leaderboard
 非常主观的中文语言模型评测
 
 ## Inspiration
